@@ -1,13 +1,13 @@
 ﻿using System;
 using TechTalk.SpecFlow;
 
-namespace Examples.StepDefinitions
+namespace ExerciseAnswers.StepDefinitions
 {
     [Binding]
     public class StepDefinitionParametersSteps
     {
-        [Given(@"I have a bucket of (.*) paint")]
-        public void GivenIHaveABucketOfPaint(string Color)
+        [Given(@"I have a (.*) drink")]
+        public void GivenIHaveADrink(string colorOfDrink)
         {
         }
 
@@ -16,8 +16,8 @@ namespace Examples.StepDefinitions
         {
         }
 
-        [Then(@"I have a bucket of pink paint")]
-        public void ThenIHaveABucketOfPinkPaint()
+        [Then(@"I have a (.*) drink")]
+        public void ThenIHaveADrink(string resultingColorOfDrink)
         {
         }
     }
