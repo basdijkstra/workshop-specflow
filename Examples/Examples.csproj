@@ -117,6 +117,7 @@
     <Compile Include="StepDefinitions\CalculatorExampleSteps.cs" />
     <Compile Include="StepDefinitions\HooksSteps.cs" />
     <Compile Include="StepDefinitions\MatchingTechniquesSteps.cs" />
+    <Compile Include="StepDefinitions\ParaBankRequestLoanSteps.cs" />
     <Compile Include="StepDefinitions\RegularExpressionsSteps.cs" />
     <Compile Include="StepDefinitions\ScopedStepDefinitionsSteps.cs" />
     <Compile Include="StepDefinitions\SpecFlowAssistSteps.cs" />
@@ -126,6 +127,7 @@
     <None Include="Features\CalculatorExample.feature" />
     <None Include="Features\Hooks.feature" />
     <None Include="Features\MatchingTechniques.feature" />
+    <None Include="Features\ParaBankRequestLoan.feature" />
     <None Include="Features\RegularExpressions.feature" />
     <None Include="Features\ScopedStepDefinitions.feature" />
     <None Include="Features\SpecFlowAssist.feature" />
